@@ -1,3 +1,2 @@
 # dshproject
-DSH Project Silvan Immanuel
-This is Immanuel's branch for his work.
+This is Immanuel's working branch.
