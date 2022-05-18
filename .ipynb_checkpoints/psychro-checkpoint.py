@@ -32,7 +32,7 @@ def pvs(t):
 
 def v(t, w, Z=0):
     """
-    Specific volum as a function of température and humidity ratio
+    Specific volume as a function of température and humidity ratio
     for a given altitude (default 0 m)
     t : temperature [°C]
     w : humidity ratio [kg/kg_da]
