@@ -15,8 +15,7 @@ def summerloadcalc(θ0=35, φ0=0.6, θi=25, φi=0.5):
 
     print(f'θ0 = {θ0:5.1f} °C, φ0 = {φ0*100:5.0f} %')
     print(f'θi = {θi:5.1f} °C, φi = {φi*100:5.0f} %')
-    print('')
-    print('--> Change the values with the sliders. Then klick on the next Jupyter Notebook row and run it to save the parameters.')
+    print('\n--> Change the values with the sliders, then execute the cell below to save the new values.')
     return θ0, φ0, θi, φi
 
 
