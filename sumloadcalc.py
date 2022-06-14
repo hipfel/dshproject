@@ -12,12 +12,10 @@ l = 2496e3                  # latent heat J/kg
 
 # Function for just creating widget to define parameters and later on saving them in variables
 def summerloadcalc(θ0=35, φ0=0.6, θi=25, φi=0.5):
-
     print(f'θ0 = {θ0:5.1f} °C, φ0 = {φ0*100:5.0f} %')
     print(f'θi = {θi:5.1f} °C, φi = {φi*100:5.0f} %')
     print('\n--> Change the values with the sliders, then execute the cell below to save the new values.')
     return θ0, φ0, θi, φi
-
 
 
 """
