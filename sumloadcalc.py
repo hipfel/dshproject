@@ -14,7 +14,9 @@ l = 2496e3                  # latent heat J/kg
 def summerloadcalc(θ0=35, φ0=0.6, θi=25, φi=0.5):
     print(f'θ0 = {θ0:5.1f} °C, φ0 = {φ0*100:5.0f} %')
     print(f'θi = {θi:5.1f} °C, φi = {φi*100:5.0f} %')
-    print('\n--> Change the values with the sliders, then execute the cell below to save the new values.')
+    print('\n--> Change the values with the sliders,',
+        '\n    then execute all (code) cells below the widget again!',
+        '\n    Only then the new values are used for the computations.')
     return θ0, φ0, θi, φi
 
 
